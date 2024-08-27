@@ -1,8 +1,9 @@
 import { useState } from 'react'
+import TopBar from './Components/Topbar'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Card from './Components/Card'
-import TopBar from './Components/Topbar'
+
 
 function App() {
   let [cart, setCart] = useState(0)
