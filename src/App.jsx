@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import TopBar from './Components/Topbar'
+import Navbar from './Components/Navbar'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Card from './Components/Card'
@@ -8,7 +8,7 @@ import Card from './Components/Card'
 function App() {
   let [cart, setCart] = useState(0)
   return <>
-    <TopBar cart={cart} setCart={setCart}/>
+    <Navbar cart={cart} setCart={setCart}/>
     <Header/>
     <section className="py-5">
       <div className="container px-4 px-lg-5 mt-5">

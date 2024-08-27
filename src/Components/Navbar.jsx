@@ -1,6 +1,6 @@
 
 
-function TopBar({cart,setCart}) {
+function Navbar({cart,setCart}) {
     return <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container px-4 px-lg-5">
         <a className="navbar-brand" href="#!">Start Bootstrap</a>
@@ -31,4 +31,4 @@ function TopBar({cart,setCart}) {
   </nav>
   }
   
-  export default TopBar 
+  export default Navbar
